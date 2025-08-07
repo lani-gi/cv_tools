@@ -1,0 +1,38 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv/*
+.perso
+
+# Ignore node modules (if any JS tooling is added)
+node_modules/
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Ignore PDF and export files
+*.pdf
+
+# Ignore backup and temp files
+*.bak
+*.tmp
+~$*
+
+# Ignore log files
+*.log
+
+# Ignore HTML/CSS build artifacts (if any)
+dist/
+build/
+
+# Ignore personal files
+*.swp
+*.swo
+
+# Ignore markdown preview cache
+*.md.cache
